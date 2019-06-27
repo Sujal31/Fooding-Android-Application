@@ -41,7 +41,7 @@ namespace Assignment_2
             while (result.MoveToNext())
             {
 
-
+                // Local variable that stored value of row which fatched from table
                 var NamefromDB = result.GetString(result.GetColumnIndexOrThrow(DBLite.getname()));
                 username.Text = NamefromDB;
 
