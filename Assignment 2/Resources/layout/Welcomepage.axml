@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:text="Welcome To Foodingo :)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+     <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="95dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/userlist"
+        android:text="See User List"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_width="120dp"
+        android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/eusername"
+            android:hint="User Name"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:padding="6dp"
+            android:layout_margin="5dp"
+            android:background="#a5a7aa"/>
+    <EditText
+            android:id="@+id/euseremail"
+            android:hint="E-mail"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:padding="6dp"
+            android:layout_margin="5dp"
+            android:background="#a5a7aa"/>
+         <EditText
+           android:id="@+id/epassword"
+            android:hint="Password"
+            android:textSize="15dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="#a5a7aa"
+            android:padding="6dp"
+             android:layout_margin="5dp"/>
+        <EditText
+            android:id="@+id/euserage"
+            android:hint="Age"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:padding="6dp"
+            android:layout_margin="5dp"
+            android:background="#a5a7aa"/>
+
+        <Button
+        android:id="@+id/editbtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Edit"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_orange_dark"/>
+
+    
+
+    
+
+</LinearLayout>
